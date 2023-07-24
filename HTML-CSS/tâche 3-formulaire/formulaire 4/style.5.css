@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contener{
+    display: flex;
+    gap: 67px;
+    width: 1100px;
+    height: 820px;
+    border: 1px solid black;
+}
+
+.form{
+    display: flex;
+    gap: 67px;
+}
+
+img{
+    width: 280px;
+    height: 820px;
+}
+
+input{
+    height: 45px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.you{
+    margin-top: 60px;
+}
+/* -----------------------------------------------------MES CLASS------------------------------------------------------------------------- */
+.too, .for, .met, .post{
+    display: grid;
+    margin-top: 35px;
+}
+
+.cta{
+    margin-top: 60px;
+    display: grid;
+}
+
+p{
+    margin-top: 26px;
+}
+
+.moi{
+    height: 23px;
+    width: 20px;
+}
+
+.toi{
+    margin-top: 48px;
+    display: grid;
+}
+
+h1{
+    position: absolute;
+    top: 300px;
+    margin-left: 40px;
+    color: beige;
+}
+
+.bit{
+    margin-top: 35px;
+    display: grid;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+.troie{
+    width: 310px;
+    border: none;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.292);
+    margin-bottom: 25px;
+    margin-left: -6px;
+    border-color: rgb(0, 128, 23);
+}
+
+.loie{
+    width: 310px;
+    border: none;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.292);
+    margin-bottom: 25px;
+    margin-right: -2px;
+}
+
+.soie{
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: rgb(0, 128, 23);
+    color: beige;
+}
+
+.dive{
+    display: flex;
+}
+
+.mega{
+    margin-left: 420px;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+input[type="reset"]{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-color: green;
+    border-radius: 10px;
+    background-color: beige;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.submit{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-color: green;
+    border-radius: 10px;
+    background-color: green;
+    color: beige;
+}

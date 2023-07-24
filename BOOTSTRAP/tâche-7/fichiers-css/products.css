@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* début */
+
+body{
+    background-image: url(../images/image-de-couverture.jpg);
+    background-position: center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header */
+/* début section */
+
+.container .h1{
+    color: rgb(173, 10, 10);
+}
+
+.container{
+    padding: 60px;
+}
+
+header .navbar .container-fluid{
+    background-color: #490909;
+    padding: 50px;
+}
+
+header .navbar .container-fluid a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* banner Section */
+
+.banner_wrapper .container-fluid .rox{
+    background-color: #F6E1C5;
+    position: relative;
+    right: 13rem;
+    top: 6rem;
+    border-radius: 10px;
+}
+
+.banner_wrapper .container-fluid .plan{
+    background-color: #F6E1C5;
+    position: relative;
+    left: 10rem;
+    top: -6rem;
+    border-radius: 10px;
+}
+
+/* trap Section */
+
+.trap_wrapper .container-fluid .top{
+    background-color: #F6E1C5;
+    position: relative;
+    left: 10rem;
+    top: 6rem;
+    border-radius: 10px;
+}
+
+.trap_wrapper .container-fluid .tap{
+    background-color: #F6E1C5;
+    position: relative;
+    right: 10rem;
+    bottom: 6rem;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer .container-fluid{
+    background-color: #311919;
+}
+
+/* media screen */
+@media screen and (max-width: 760px){
+    .rox{
+        top: 0;
+        max-height: max-content;
+        max-width: max-content;
+        margin-bottom: 4rem;
+        right: 0;
+    }
+
+    .plan{
+        top: 0;
+        max-height: max-content;
+        max-width: max-content;
+        margin-top: 4rem;
+        left: -3rem;
+    }
+
+    .top{
+        top: 0;
+        max-height: max-content;
+        max-width: max-content;
+        margin-bottom: 4rem;
+        left: 0;
+    }
+
+    .tap{
+        bottom: 0;
+        max-height: max-content;
+        max-width: max-content;
+        margin-top: 4rem;
+        right: 0;
+    }
+
+}

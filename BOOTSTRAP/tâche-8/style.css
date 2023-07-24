@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#header{
+    background-image: url(./images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+#header .navbar .container-fluid img{
+    width: 150px;
+}
+
+#header .navbar .container-fluid .navbar-nav a:hover{
+    color: #FFC800;
+}
+
+/* main */
+/* Service section */
+.Service_wrapper .container-fluid .plan .card{
+    border: none;
+}
+
+.Service_wrapper .container-fluid .plan .card i{
+    background-color: #FFC800;
+    font-size: 70px;
+    color: white;
+    padding: 18px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 50%;
+    width: 140px;
+}
+
+.Service_wrapper{
+    padding: 2rem;
+}
+
+/* Porfolio Section */
+.Portfolio_wrapper .container-fluid .plan .card{
+    border: none;
+}
+
+.Portfolio_wrapper .container-fluid .plan .card img{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Portfolio_wrapper .container-fluid .plan .card img:hover{
+    
+}
+
+/* About Section */
+:focus{
+    outline: 0px solid transparent !important;
+}
+.timeline {
+    padding: 0;
+    position: relative;
+}
+
+.timeline-nodes:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline .timeline-nodes{
+    margin: 5rem;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    border-left: 1px solid  rgba(95, 95, 95, 0.578);
+    height: 155vh;
+}
+
+.timeline-nodes:nth-child(odd) h3,
+.timeline-nodes:nth-child(odd) h6 {
+    text-align: right;
+}
+
+.timeline .timeline-nodes .pro{
+    position: relative;
+    right: 10rem;
+}
+
+.timeline .timeline-nodes .duo{
+    position: relative;
+    left: 10rem;
+}
+
+.timeline-nodes .timeline-image .one{
+    position: relative;
+    right: 20.4rem;
+    border-radius: 50%;
+    border: 8px solid rgba(128, 128, 128, 0.68);
+    z-index: 1;
+}
+
+.timeline-nodes .timeline-image .deux{
+    position: relative;
+    left: 20.4rem;
+    border-radius: 50%;
+    border: 8px solid rgba(128, 128, 128, 0.659);
+    z-index: 1;
+}
+
+.timeline-nodes .decor{
+    position: relative;
+    background-color: #FFC800;
+    border-radius: 50%;
+    padding: 3rem;
+    border: 8px solid rgba(128, 128, 128, 0.817);
+}
+
+/* Team Section */
+.Team_wrapper .container-fluid .plan .card{
+    border: none;
+    background: none;
+}
+
+.Team_wrapper .container-fluid .plan .card img{
+    border-radius: 50%;
+    border: 8px solid rgba(128, 128, 128, 0.323);
+}
+
+.Team_wrapper .container-fluid{
+    padding: 4rem;
+    background-color: #F8F9FA;
+}
+
+.Team_wrapper .container-fluid .plan .card .icôns i{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.Team_wrapper .container .plan .card{
+    border: none;
+}
+
+/* footer */
+
+/* Contact section */
+.Contact_wrapper .container-fluid{
+    background-image: url(./images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: rgb(32, 32, 32);
+}
+
+.Contact_wrapper .container-fluid .row h6{
+    color: gray;
+}
+
+.Contact_wrapper .container-fluid .plan-1 .tor button{
+    background-color: #ffc800b1;
+    margin-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.649);
+}
+
+/* fin Section */
+
+.fin_wrapper .container-fluid .row .icôns i{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+/* Partie responsive */
+
+
+
+@media screen and (max-width: 768px){
+    .timeline::before{
+        left: 50%;
+        height: 180vh;
+    }
+
+    .timeline-nodes:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -14rem;
+        top: -4rem;
+    }
+
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        top: 0;
+        left: 14rem;
+    }
+
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        right: 8.2rem;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: 8.2rem;
+        top: -14rem;
+    }
+
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        padding: 10px;
+        right: 9.3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .timeline::before{
+        left: 50%;
+        height: 195vh;
+    }
+
+    .timeline-nodes:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -3rem;
+    }
+
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        top: -6rem;
+        left: 20rem;
+    }
+
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        right: 9.8rem;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: 12.5rem;
+    }
+
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        top: -8rem;
+        padding: 7px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .timeline::before{
+        left: 50%;
+        height: 174vh;
+    }
+
+    .timeline-nodes:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -5rem;
+    }
+
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        top: -9rem;
+        left: 29rem;
+    }
+
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        right: 14rem;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: 18rem;
+    }
+
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        top: -8rem;
+        padding: 7px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .timeline::before {
+        position: absolute;
+        left: 50%;
+        height: 165vh;
+    }
+    
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -9rem;
+    }
+    
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        left: 38rem;
+        top: -12rem;
+    }
+    
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        right: 17.2rem;
+        border-radius: 50%;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: 22rem;
+        border-radius: 50%;
+    }
+    
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        padding: 3rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .timeline::before {
+        position: absolute;
+        left: 50%;
+        height: 165vh;
+    }
+    
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -11rem;
+    }
+    
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        left: 47rem;
+        top: -12rem;
+    }
+    
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        right: 20.4rem;
+        border-radius: 50%;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: 27rem;
+        border-radius: 50%;
+    }
+    
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .timeline::before{
+        left: 10%;
+        height: 240vh;
+    }
+
+    .timeline-nodes:nth-child(odd) h3,
+    .timeline-nodes:nth-child(odd) h6 {
+        text-align: left;
+    }
+
+    .timeline-nodes:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .timeline .timeline-nodes .pro{
+        position: relative;
+        left: -2rem;
+        /* top: ; */
+    }
+
+    .timeline .timeline-nodes .duo{
+        position: relative;
+        top: 0;
+        left: 1rem;
+    }
+
+    .timeline-nodes .timeline-image .one{
+        position: relative;
+        left: -13.5rem;
+    }
+    
+    .timeline-nodes .timeline-image .deux{
+        position: relative;
+        left: -5rem;
+        top: -20rem;
+    }
+
+    .timeline-nodes .decor{
+        position: relative;
+        background-color: #FFC800;
+        border-radius: 50%;
+        padding: 10px;
+        right: 14rem;
+    }
+}

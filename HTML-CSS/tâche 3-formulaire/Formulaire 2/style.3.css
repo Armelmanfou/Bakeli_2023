@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: -webkit-linear-gradient(left, #5f008b, darkmagenta, #a70191);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contener{
+    background-color: rgb(0, 2, 145);
+    width: 430px;
+    height: 590px;
+    display: flex;
+    margin: 50px;
+    margin-right: 400px;
+    gap: 30px;
+}
+
+.mon-im{
+    z-index: 1;
+    display: flex;
+    color: white;
+    margin-left: -390px;
+    margin-top: 490px;
+    background: -webkit-linear-gradient(left, #5f008b, darkmagenta, #a70191);
+    width: 270px;
+    height: 100px;
+    opacity: 0.7;
+    padding-left: 80px;
+
+}
+
+img{
+    width: 350px;
+    height: 490px;
+}
+
+div{
+    display: flex;
+    gap: 40px;
+    height: 50px;
+}
+
+.input{
+    background-color: darkblue;
+    border: none;
+    color: beige;
+    font-size: large;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+    color: purple;
+}
+
+.type{
+    background-color: darkblue;
+    border: none;
+    color: beige;
+    font-size: large;
+    outline: none;
+}
+
+input{
+    background-color: darkblue;
+    border: none;
+    border-bottom: 1px solid wheat;
+    outline: none;
+    font-size: large;
+    
+}
+
+label{
+ color: beige;
+ margin-left: 50px;
+ margin-bottom: 15px;
+}
+/* ----------------------------------------CLASS------------------------------------------------ */
+.you label, .too label, .teen label{
+    margin-top: 40px;
+}
+
+.room label{
+    margin-top: 40px;
+}
+
+.mon label, .ton label{
+    margin-top: 14px;
+}
+
+.you input{
+    margin-top: 73px;
+    margin-left: -17px;
+}
+
+.boutton{
+    margin-left: 70px;
+    margin-top: 78px;
+    color: beige;
+    border: none;
+    border-bottom: 0px;
+    padding: 15px 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: #a70191;
+ /* ------------------------------------------------------------mes backkground--------------------------------------------------------------- */
+    background: -webkit-linear-gradient(top, #a70191, #7801a7, #1201a7);
+    background: -moz-linear-gradient(top, #a70191, #7801a7, #1201a7);
+    background: -o-linear-gradient(top, #a70191, #7801a7, #1201a7);  
+}

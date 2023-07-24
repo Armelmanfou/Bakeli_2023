@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+body{
+    background-image: url(../images/image-de-couverture.jpg);
+    background-position: center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* début Section */
+.container .h1{
+    color: rgb(173, 10, 10);
+}
+
+.container{
+    padding: 60px;
+}
+
+header .navbar .container-fluid{
+    background-color: #490909;
+    padding: 50px;
+}
+
+header .navbar .container-fluid a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main */
+
+/* banner Section */
+.banner_wrapper{
+    margin-top: 3rem;
+}
+
+.banner_wrapper .container-lg .plan{
+    background-color: #F6E1C5;
+    padding: 30px;
+    width: 55%;
+    position: relative;
+    top: -90px;
+}
+
+.banner_wrapper .container-lg .plan h6,p{
+    font-weight: 800;
+}
+
+.banner_wrapper .container-lg .plan h2{
+    color: rgba(0, 0, 0, 0.393);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner_wrapper .container-lg .row .imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+/* end Section */
+footer .container-fluid{
+    background-color: #311919;
+}
+
+footer .container-fluid h4{
+    color: white;
+}
+
+/* media Screen */
+
+@media screen and (max-width: 760px){
+    .plan{
+        top: 0;
+        max-width: max-content;
+        max-height: max-content;
+        margin-top: 3rem;
+    }
+}

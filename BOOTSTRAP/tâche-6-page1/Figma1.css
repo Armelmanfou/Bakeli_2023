@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.navbar-brand, .nav-item{
+    padding: 6px;
+}
+
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .nav-item{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.collapse .btn{
+    background-color: darkorange;
+}
+
+.navbar .logo{
+    width: 100px;
+}
+
+.navbar, .navbar-brand, .nav-item{
+    padding: 10px;
+}
+
+.navbar .fa-sharp{
+    margin-left: 30px;
+}
+
+/* main */
+
+/* Home section */
+.home_wrapper .tour{
+    background-color: rgb(10, 139, 128);
+    height: auto;
+    font-size: 100%;
+    border-radius: 6px;
+}
+
+.home_wrapper .tour p{
+    padding: 120px;
+    color: white;
+    font-size: 20px;
+}
+
+.home_wrapper button{
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+}
+
+.home_wrapper .row{
+    margin-top: 90px;
+}
+
+.home_wrapper .image{
+    margin-top: -80px;
+}
+
+/* Work Section */
+.work_wrapper{
+    margin-top: 200px;
+}
+
+.work_wrapper .work-1{
+    background-color: rgb(10, 139, 128);
+    height: auto;
+    width: 800px;
+    font-size: 100%;
+    border-radius: 20px;
+}
+
+.work_wrapper .work-1{
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.work_wrapper .pour{
+    margin-top: 40px;
+}
+
+.work_wrapper .work-2{
+    border: 1px solid rgb(10, 139, 128);
+    border-radius: 20px;
+    height: auto;
+    width: 500px;
+    padding: 50px;
+    font-weight: 600;
+}
+
+.work_wrapper button{
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/* banner section */
+.banner_wrapper .card{
+    text-align: center;
+    padding: 40px;
+}
+
+.banner_wrapper .card img{
+    width: 100px;
+}
+
+.banner_wrapper{
+    margin-top: 200px;
+}
+
+.banner_wrapper .photo-1{
+    border-color: red;
+    border-radius: 35px;
+}
+
+.banner_wrapper .photo-2{
+    border-color: rgb(2, 85, 2);
+    border-radius: 35px;
+}
+
+.banner_wrapper .photo-3{
+    border-color: yellow;
+    border-radius: 35px;
+}
+
+.banner_wrapper .photo-1 h5{
+    color: red;
+    font-size: 23px;
+}
+
+.banner_wrapper .photo-2 h5{
+    color: rgb(2, 98, 2);
+    font-size: 23px;
+}
+
+.banner_wrapper .photo-3 h5{
+    color: yellow;
+    font-size: 23px;
+}
+
+/* diplôme Section */
+.diplôme_wrapper{
+    margin-top: 150px;
+}
+
+.diplôme_wrapper .container-fluid{
+    background-color: #F44336;
+    height: auto;
+}
+
+.diplôme_wrapper .row img{
+    margin-top: 30px;
+    width: 80px;
+}
+
+.diplôme_wrapper h2{
+    padding: 25px;
+}
+
+span{
+    display: grid;
+}
+
+.diplôme_wrapper h2,
+.diplôme_wrapper .row h5,
+.diplôme_wrapper .row p{
+    color: white;
+    font-weight: 100%;
+}
+
+.diplôme_wrapper .row{
+    display: grid;
+    grid-template-rows: 25px;
+}
+
+.diplôme_wrapper .row h5,
+.diplôme_wrapper .row p{
+    margin-left: 70px;
+}
+
+.bottom-img{
+    width: 100%;
+    margin-top: -10px;
+}
+
+/* coach Section */
+.coach_wrapper{
+    margin-top: 80px;
+}
+
+.coach_wrapper button{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #F44336;
+    border: 1px solid #F44336;
+    margin-top: 60px;
+}
+
+.coach_wrapper .row h6{
+    color: black;
+}
+
+.coach_wrapper .row .card{
+    border-color: green;
+}
+
+.coach_wrapper .row img{
+    padding: 20px;
+}
+
+.coach_wrapper .text-center{
+    margin-top: 80px;
+}
+
+.coach_wrapper .text-center input{
+    background-color: rgba(128, 128, 128, 0.407);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* image Section */
+.image_wrapper .container-fluid{
+    background-color: #F44336;
+    height: auto;
+}
+
+.image_wrapper h2,h6{
+    padding: 12px;
+    color: white;
+}
+
+.image_wrapper .container-fluid .rock{
+    margin-top: 58px;
+}
+
+.image_wrapper .container-fluid .roi{
+    margin-top: 130px;
+}
+
+.image_wrapper .container-fluid button{
+    margin-top: 20px;
+    border: none;
+    background-color: #F44336;
+    color: white;
+}
+
+/* card Section */
+.card_wrapper{
+    margin-top: 100px;
+}
+
+.card_wrapper .container-fluid{
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.card_wrapper .container-fluid button{
+    padding: 5px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-top: 50px;
+    background-color: #F44336;
+    color: white;
+    border: none;
+}
+
+.card_wrapper .container-fluid .card{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* footer */
+/* fin Section */
+
+.fin_wrapper .container-fluid{
+    margin-top: 100px;
+    background-color: #009688;
+    padding-bottom: 20px;
+}
+
+.fin_wrapper .container-fluid .row{
+    padding: 25px;
+}
+
+.fin_wrapper .container-fluid i{
+    color: white;
+}

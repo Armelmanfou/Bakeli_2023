@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* début */
+
+body{
+    background-image: url(../images/image-de-couverture.jpg);
+    background-position: center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* header */
+/* début section */
+
+.container .h1{
+    color: rgb(173, 10, 10);
+}
+
+.container{
+    padding: 60px;
+}
+
+header .navbar .container-fluid{
+    background-color: #490909;
+    padding: 50px;
+}
+
+header .navbar .container-fluid a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* banner Section */
+
+.banner_wrapper{
+    margin-top: 7rem;
+}
+
+.banner_wrapper .container-fluid{
+    background-color: #7e2a24c3;
+}
+
+.banner_wrapper .container-fluid .rox{
+    background-color: #F6E1C5;
+    margin: 5rem;
+}
+
+.banner_wrapper .container-fluid .rox p{
+    position: relative;
+    bottom: -2rem;
+}
+
+.banner_wrapper .container-fluid .plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_wrapper .container-fluid .row .top h5,h6{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+/* work Section */
+
+.work_wrapper .container-lg .row .color{
+    background-color: #F6E1C5;
+    position: relative;
+    top: -7rem;
+}
+
+.work_wrapper{
+    margin-top: 7rem;
+}
+
+.work_wrapper .container-lg .row .imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+/* end Section */
+footer .container-fluid{
+    background-color: #311919;
+}
+
+footer .container-fluid h4{
+    color: white;
+}
+
+/* media screen */
+
+@media screen and (max-width: 760px){
+    .color{
+        top: 0;
+        max-height: max-content;
+        margin-top: 4rem;
+    }
+}

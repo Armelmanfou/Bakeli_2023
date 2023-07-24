@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+body{
+    background-image: url(../images/image-de-couverture.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/* début Section */
+.container .h1{
+    color: rgb(173, 10, 10);
+}
+
+.container{
+    padding: 60px;
+}
+
+header .navbar .container-fluid{
+    background-color: #490909;
+    padding: 50px;
+}
+
+header .navbar .container-fluid a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main */
+
+/* body Section */
+.body_wrapper .container .box{
+    background-color: #F6E1C5;
+    position: relative;
+    left: 10rem;
+    width: 38%;
+}
+
+.body_wrapper .container .box h6,p{
+    font-weight: 800;
+}
+
+.body_wrapper .container .box h2{
+    color: rgba(0, 0, 0, 0.516);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_wrapper .container .box button{
+    background-color: #7B261A;
+    color: white;
+    border: none;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    top: 50px;
+}
+
+/* trap Section */
+.trap_wrapper{
+    background-color: #7b2923d7;
+}
+
+.trap_wrapper .container-fluid .rox{
+    background-color: #F6E1C5;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.trap_wrapper .container-fluid .rox p,h2{
+    color: rgba(0, 0, 0, 0.696);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.trap_wrapper .container-fluid .rox h2{
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.carre{
+    border: 2px solid #F6E1C5;
+    padding: 4px;
+    margin: 40px; 
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+}
+
+/* footer */
+
+footer .container-fluid{
+    background-color: #311919;
+    margin-top: 70px;
+}
