@@ -37,8 +37,9 @@ header .navbar .container-fluid a{
 .body_wrapper .container .box{
     background-color: #F6E1C5;
     position: relative;
-    left: 10rem;
     width: 38%;
+    right: 22rem;
+    top: -25rem;
 }
 
 .body_wrapper .container .box h6,p{
@@ -105,4 +106,19 @@ span{
 footer .container-fluid{
     background-color: #311919;
     margin-top: 70px;
+}
+
+@media screen and (max-width: 500px){
+    .body_wrapper .container .box{
+        position: relative;
+        right: 0rem;
+        top: -2rem;
+    }
+    .body_wrapper .container .box button{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        top: 50px;
+    }
 }
